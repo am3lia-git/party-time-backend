@@ -18,5 +18,5 @@ app.use(express.json());
 require('./server')(app);
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on ${PORT}`);
 });
