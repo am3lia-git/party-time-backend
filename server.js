@@ -21,10 +21,10 @@ module.exports = function(app) {
     let message;
     switch (attendance.toLowerCase()) {
       case 'yes':
-        message = 'yay! can’t wait to see u on may 31 at 8pm!!\n\ndeets:\n3 gloucester st, party room on the 6th floor\nbuzz #5540, then tell concierge u are coming to amelia’s party';
+        message = 'yay! can’t wait to see u on may 31 at 8pm!!\n\ndeets:\n3 gloucester st, party room on the 6th floor\nbuzz #5540, then tell concierge u are coming to amelia’s party\n\nalso it’s byob / byow';
         break;
       case 'maybe':
-        message = 'hope you can make it! let me know when u decide.\n\ndeets, just in case:\n3 gloucester st, party room on the 3rd floor\nbuzz #5540, then tell concierge u are coming to amelia’s party';
+        message = 'hope you can make it! let me know when u decide.\n\ndeets, just in case:\n3 gloucester st, party room on the 3rd floor\nbuzz #5540, then tell concierge u are coming to amelia’s party\n\nalso it’s byob / byow';
         break;
       case 'no':
         message = 'i’ll miss u — thanks for letting me know.';
